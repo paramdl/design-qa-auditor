@@ -1,0 +1,26 @@
+{
+  "$comment": "Generic starter spec — copy this file per project and edit. Empty arrays = check skipped.",
+  "fontFamilies": [],
+  "typeScale": [12, 14, 16, 18, 20, 24, 32, 40, 48, 56, 64],
+  "fontWeights": [400, 500, 600, 700],
+  "colors": {
+    "text": [],
+    "accent": [],
+    "onDark": []
+  },
+  "spacingScale": [8, 12, 16, 24, 32, 40, 48, 64, 80, 96, 120],
+  "roles": {
+    "body": { "lineHeight": [1.4, 1.8] },
+    "list": { "lineHeight": [1.4, 1.8] }
+  },
+  "maxBodyTextColors": 3,
+  "tolerance": { "fontSizePx": 0.5, "spacingPx": 1 },
+  "checks": {
+    "singleH1": true,
+    "duplicateIds": true,
+    "contrast": true,
+    "headingConsistency": true,
+    "colorSprawl": true,
+    "sectionPadding": true
+  }
+}
